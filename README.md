@@ -7,6 +7,8 @@ An interactive, retro-styled CRT communication terminal inspired by _Stranger Th
 ![Vite](https://img.shields.io/badge/vite-7.2.4-purple.svg)
 ![TypeScript](https://img.shields.io/badge/typescript-5.9.3-blue.svg)
 
+[**🔴 Live Demo**](https://6986e98c7514a9e7bbad8bcf--luminous-brigadeiros-b58df0.netlify.app/)
+
 ## 🌟 Features
 
 - **Retro CRT Interface**: Authentically styled with scanlines, screen curvature, phosphor glow, and "barrel" distortion effects.
