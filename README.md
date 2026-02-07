@@ -1,6 +1,6 @@
-# 📟 Upside Down Communicator
+# 📟 Downside up Communicator
 
-An interactive, retro-styled CRT communication terminal inspired by *Stranger Things*. This application allows users to send and decode Morse code transmissions, with various encryption modes and a "possession" mechanic.
+An interactive, retro-styled CRT communication terminal inspired by _Stranger Things_. This application allows users to send and decode Morse code transmissions, with various encryption modes and a "possession" mechanic.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/react-19.2.0-blue.svg)
@@ -44,17 +44,20 @@ An interactive, retro-styled CRT communication terminal inspired by *Stranger Th
 ### Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/yourusername/upside-down-communicator.git
    cd upside-down-communicator
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Start the development server:
+
    ```bash
    npm run dev
    ```
@@ -86,4 +89,5 @@ An interactive, retro-styled CRT communication terminal inspired by *Stranger Th
 
 ---
 
-*Made with 🕯️ in Hawkins, Indiana.*
+_Made with 🕯️ in Hawkins, Indiana._
+
