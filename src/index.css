@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Phosphor color options */
+  --phosphor-green: #00ff00;
+  --phosphor-green-dim: #00cc00;
+  --phosphor-green-dark: #006600;
+  --phosphor-amber: #ffaa00;
+  --phosphor-amber-dim: #cc8800;
+  --phosphor-amber-dark: #664400;
+  --phosphor-white: #ffffff;
+  --phosphor-white-dim: #cccccc;
+  --phosphor-white-dark: #666666;
+
+  /* Current phosphor (default: green) */
+  --phosphor: var(--phosphor-green);
+  --phosphor-dim: var(--phosphor-green-dim);
+  --phosphor-dark: var(--phosphor-green-dark);
+
+  /* CRT housing colors */
+  --bezel-dark: #1a1a1a;
+  --bezel-light: #2a2a2a;
+  --bezel-highlight: #3a3a3a;
+
+  font-family: 'VT323', monospace;
+  line-height: 1.2;
+  font-weight: 400;
+  color-scheme: dark;
+  color: var(--phosphor);
+  background-color: #0a0a0a;
+
+  /* Disable font smoothing for authentic CRT look */
+  font-synthesis: none;
+  text-rendering: optimizeSpeed;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: unset;
+  image-rendering: pixelated;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Remove all modern button styles */
+button {
+  border-radius: 0;
+  border: none;
+  padding: 0;
+  font-family: 'VT323', monospace;
+  background: none;
+  cursor: pointer;
+}
+
+input {
+  border-radius: 0;
+  font-family: 'VT323', monospace;
+}
+
+/* Pixelated scrollbars */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+  border: 2px solid var(--phosphor-dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--phosphor-dark);
+  border: 2px solid #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--phosphor-dim);
+}
+
+/* Selection colors */
+::selection {
+  background: var(--phosphor);
+  color: #000000;
+}
